@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  margin: 0;
+  overflow: hidden;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#link-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#hidden-link {
+  color: green;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 1s ease-in-out;
+}
+
+#hidden-link:hover {
+  color: red;
+}
